@@ -1,0 +1,35 @@
+.navbar-nav .nav-item #country{
+    text-align: center;
+    border: none;
+    margin-right: 10px;
+    padding: 3px 10px;
+    
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .right-nav{
+        position: absolute;
+        flex-direction: row;
+        top: 50px;
+        left: 0;
+    }
+    .right-nav .post-btn{
+        position: absolute;
+        top: 50px;
+        right: 0;
+    }
+    .right-nav .nav-item .signin{
+        margin-right:0;
+    }
+    .right-nav .nav-item .register{
+        margin-left:0;
+    }
+    .right-nav .nav-item{
+        margin: 0 10px;
+    }
+}
